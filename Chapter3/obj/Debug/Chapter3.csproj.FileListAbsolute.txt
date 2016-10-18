@@ -1,0 +1,4 @@
+C:\ApressCode\Chapter3\bin\Chapter3.dll
+C:\ApressCode\Chapter3\bin\Chapter3.pdb
+C:\ApressCode\Chapter3\obj\Debug\Chapter3.dll
+C:\ApressCode\Chapter3\obj\Debug\Chapter3.pdb

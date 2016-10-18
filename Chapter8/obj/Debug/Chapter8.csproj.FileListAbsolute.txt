@@ -1,0 +1,5 @@
+C:\ApressCode\Chapter8\bin\Chapter8.dll.config
+C:\ApressCode\Chapter8\bin\Chapter8.dll
+C:\ApressCode\Chapter8\bin\Chapter8.pdb
+C:\ApressCode\Chapter8\obj\Debug\Chapter8.dll
+C:\ApressCode\Chapter8\obj\Debug\Chapter8.pdb

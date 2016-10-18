@@ -1,0 +1,5 @@
+C:\ApressCode\Chapter2\bin\Chapter2.dll
+C:\ApressCode\Chapter2\bin\Chapter2.pdb
+C:\ApressCode\Chapter2\obj\Debug\Chapter2.csprojResolveAssemblyReference.cache
+C:\ApressCode\Chapter2\obj\Debug\Chapter2.dll
+C:\ApressCode\Chapter2\obj\Debug\Chapter2.pdb

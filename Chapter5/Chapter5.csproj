@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{A6588BB4-E149-46BA-BA0C-6A5122905928}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>0.9</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="6. Sensors\sensors.htm" />
+    <Content Include="5. Geolocation\5.34.htm" />
+    <Content Include="5. Geolocation\5.33.htm" />
+    <Content Include="4. Storage\indexed-db.htm" />
+    <Content Include="4. Storage\5.20.htm" />
+    <Content Include="4. Storage\5.19.htm" />
+    <Content Include="4. Storage\5.18.htm" />
+    <Content Include="2. The Document Object Model\5.9.htm" />
+    <Content Include="2. The Document Object Model\5.8.htm" />
+    <Content Include="2. The Document Object Model\5.7.htm" />
+    <Content Include="2. The Document Object Model\5.6.htm" />
+    <Content Include="2. The Document Object Model\5.5.htm" />
+    <Content Include="3. Network\5.17.htm" />
+    <Content Include="3. Network\5.13.htm" />
+    <Content Include="7. Web Workers\web-workers.htm" />
+    <Content Include="app.css" />
+    <Content Include="2. The Document Object Model\5.4.htm" />
+    <Content Include="3. Network\Data.html" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="1. Anatomy of a Web Browser\5.2.ts" />
+    <TypeScriptCompile Include="1. Anatomy of a Web Browser\5.1.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.10.ts" />
+    <TypeScriptCompile Include="6. Sensors\sensors.ts" />
+    <TypeScriptCompile Include="5. Geolocation\5.34.ts" />
+    <TypeScriptCompile Include="5. Geolocation\5.33.ts" />
+    <TypeScriptCompile Include="4. Storage\indexed-db.ts" />
+    <TypeScriptCompile Include="4. Storage\product.ts" />
+    <TypeScriptCompile Include="4. Storage\5.20.ts" />
+    <TypeScriptCompile Include="4. Storage\5.19.ts" />
+    <TypeScriptCompile Include="4. Storage\5.18.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.9.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.8.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.7.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.6.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.5.ts" />
+    <TypeScriptCompile Include="2. The Document Object Model\5.4.ts" />
+    <TypeScriptCompile Include="3. Network\5.13.ts" />
+    <TypeScriptCompile Include="3. Network\5.11.ts" />
+    <TypeScriptCompile Include="3. Network\5.15.ts" />
+    <TypeScriptCompile Include="3. Network\5.16.ts" />
+    <TypeScriptCompile Include="3. Network\5.17.ts" />
+    <TypeScriptCompile Include="4. Storage\productDatabase.ts" />
+    <TypeScriptCompile Include="7. Web Workers\web-workers.ts" />
+    <TypeScriptCompile Include="7. Web Workers\worker.ts" />
+    <TypeScriptCompile Include="Scripts\addEvent.ts" />
+    <TypeScriptCompile Include="Scripts\ajax.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Chapter5</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55633</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55633/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
