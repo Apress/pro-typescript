@@ -2,7 +2,7 @@ declare var fs: any;
 
 interface FileItem {
     path: string;
-    contents: string[];
+    contents: FileItem[];
 }
 
 class FileReaderExample {
